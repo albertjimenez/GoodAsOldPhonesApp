@@ -47,10 +47,10 @@ class ProductViewController: UIViewController {
     @IBAction func contactAction(_ sender: AnyObject) {
         
         showConsole()
-        performSegue(withIdentifier: "segueContact", sender: nil)
-        
+        self.performSegue(withIdentifier: "segueContact", sender: nil)
         
     }
+    
     
     
     
