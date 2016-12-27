@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Telephone" translatesAutoresizingMaskIntoConstraints="NO" id="uJn-9A-7Pp">
-                                <frame key="frameInset" width="375" height="667"/>
+                                <frame key="frameInset" minX="86" minY="343" width="203" height="245"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Phone Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gr2-LX-Pdd">
@@ -37,6 +37,15 @@
                                     <action selector="addToCart:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wFV-A6-HMh"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="83b-qt-SPF">
+                                <frame key="frameInset" minX="144" minY="604" width="86" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Contact"/>
+                                <connections>
+                                    <action selector="contactAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2zy-3n-MEz"/>
+                                    <segue destination="Dlu-Rz-VJV" kind="show" identifier="segueContact" id="bja-yv-zCq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -47,7 +56,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2297" y="464"/>
+            <point key="canvasLocation" x="2296.8000000000002" y="463.71814092953525"/>
         </scene>
         <!--Contact View Controller-->
         <scene sceneID="q5N-Pu-yS1">

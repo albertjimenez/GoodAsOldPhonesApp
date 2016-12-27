@@ -10,6 +10,7 @@
 		E21A41851E11E7AD00F5353F /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21A41841E11E7AD00F5353F /* ProductViewController.swift */; };
 		E21A41871E11ED1500F5353F /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21A41861E11ED1500F5353F /* ContactViewController.swift */; };
 		E2392E7E1E12E3D40017500F /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2392E7D1E12E3D40017500F /* ProductsTableViewController.swift */; };
+		E2392E801E13069D0017500F /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2392E7F1E13069D0017500F /* Product.swift */; };
 		E259B25F1E11FC7A003D7ED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2A852A71DF7519600CD7875 /* Assets.xcassets */; };
 		E2A852A11DF7519600CD7875 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A852A01DF7519600CD7875 /* AppDelegate.swift */; };
 		E2A852A61DF7519600CD7875 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A852A41DF7519600CD7875 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 		E21A41841E11E7AD00F5353F /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 		E21A41861E11ED1500F5353F /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		E2392E7D1E12E3D40017500F /* ProductsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
+		E2392E7F1E13069D0017500F /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		E2A8529D1DF7519600CD7875 /* GoodAsOldPhones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodAsOldPhones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2A852A01DF7519600CD7875 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2A852A51DF7519600CD7875 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				E21A41841E11E7AD00F5353F /* ProductViewController.swift */,
 				E21A41861E11ED1500F5353F /* ContactViewController.swift */,
 				E2392E7D1E12E3D40017500F /* ProductsTableViewController.swift */,
+				E2392E7F1E13069D0017500F /* Product.swift */,
 			);
 			path = GoodAsOldPhones;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			files = (
 				E21A41851E11E7AD00F5353F /* ProductViewController.swift in Sources */,
 				E2392E7E1E12E3D40017500F /* ProductsTableViewController.swift in Sources */,
+				E2392E801E13069D0017500F /* Product.swift in Sources */,
 				E2A852A11DF7519600CD7875 /* AppDelegate.swift in Sources */,
 				E21A41871E11ED1500F5353F /* ContactViewController.swift in Sources */,
 			);
