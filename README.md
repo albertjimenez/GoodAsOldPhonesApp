@@ -1,10 +1,10 @@
 # GoodAsOldPhonesApp
-An app to introduce myself into UIKit and Cocoa Touch API. Include Swift code and Foundation Code.
+An app to introduce myself into UIKit and Cocoa Touch API. Include Swift 3 code - No coreData yet
 
-Here are some screenshots: No action is defined yet, only the outlets.
+Here are some screenshots: Action defined with an AlertView
 
-![alt tag](http://i.imgur.com/ndPRwnw.png)
+![alt tag](http://i.imgur.com/GXogwxH.png)
 
-![alt tag](http://imgur.com/uHFpbUD.png)
+![alt tag](http://i.imgur.com/ZpoGG6C.png)
 
-![alt tag](http://i.imgur.com/hOVQHPI.png)
+![alt tag](http://i.imgur.com/5KywluZ.png)
