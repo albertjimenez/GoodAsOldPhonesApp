@@ -44,12 +44,12 @@ class ProductViewController: UIViewController {
         self.present(alertController, animated: true, completion: nil)
         
     }
-    @IBAction func contactAction(_ sender: AnyObject) {
-        
-        showConsole()
-        self.performSegue(withIdentifier: "segueContact", sender: nil)
-        
-    }
+//    @IBAction func contactAction(_ sender: AnyObject) {
+//        
+//        showConsole()
+//        self.performSegue(withIdentifier: "segueContact", sender: nil)
+//        
+//    }
     
     
     

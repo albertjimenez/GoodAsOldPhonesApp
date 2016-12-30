@@ -42,7 +42,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Contact"/>
                                 <connections>
-                                    <action selector="contactAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2zy-3n-MEz"/>
                                     <segue destination="Dlu-Rz-VJV" kind="show" identifier="segueContact" id="bja-yv-zCq"/>
                                 </connections>
                             </button>
@@ -152,10 +151,10 @@
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProductCell" rowHeight="96" id="Ih4-8b-6NL">
-                                <rect key="frame" x="0.0" y="119.5" width="375" height="96"/>
+                                <rect key="frame" x="0.0" y="120" width="375" height="96"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ih4-8b-6NL" id="MTy-nV-4tl">
-                                    <frame key="frameInset" width="375" height="95.5"/>
+                                    <frame key="frameInset" width="375" height="95"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
